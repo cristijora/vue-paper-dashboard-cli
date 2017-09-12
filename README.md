@@ -5,13 +5,12 @@
 This template scaffolds a dashboard project based on [vue-paper-dashboard](https://github.com/cristijora/vue-paper-dashboard)
 with the layout, css and all the components and an empty initial page.
 
-## Demo 
 ![](https://raw.githubusercontent.com/cristijora/vue-paper-dashboard-cli/master/demo.gif)
 
 ## Installation
+```
+vue init cristijora/vue-paper-dashboard-cli
+yarn install
+yarn run dev
+```
 
-- npm i -g vue-cli (if you don't have vue-cli installed)
-- vue init cristijora/vue-paper-dashboard-cli
-- Follow installation instructions (same as webpack template)
-- npm/yarn install
-- npm/yarn run dev
