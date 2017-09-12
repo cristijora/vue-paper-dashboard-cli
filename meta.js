@@ -40,10 +40,6 @@ module.exports = {
         }
       ]
     },
-    "router": {
-      "type": "confirm",
-      "message": "Install vue-router?"
-    },
     "lint": {
       "type": "confirm",
       "message": "Use ESLint to lint your code?"
