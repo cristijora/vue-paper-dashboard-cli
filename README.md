@@ -14,3 +14,5 @@ yarn install
 yarn run dev
 ```
 
+## [Dashboard documentation](https://cristijora.github.io/vue-paper-dashboard-docs/#/)
+
