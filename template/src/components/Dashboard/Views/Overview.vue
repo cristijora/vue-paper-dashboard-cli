@@ -1,7 +1,5 @@
 <template>
-  <div>
-    Starter
-  </div>
+  <div>Vue paper dashboard starter template</div>
 </template>
 <script>
   export default {}

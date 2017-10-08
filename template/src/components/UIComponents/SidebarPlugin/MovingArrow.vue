@@ -11,9 +11,13 @@
       }
     },
     computed: {
+      /**
+       * Styles to animate the arrow
+       * @returns {{transform: string}}
+       */
       arrowStyle () {
         return {
-          'transform': `translate3d(0px, ${this.moveY}px, 0px)`
+          transform: `translate3d(0px, ${this.moveY}px, 0px)`
         }
       }
     }
@@ -22,7 +26,7 @@
 </script>
 <style lang="scss">
   $bg-nude: #f4f3ef !default;
-
+  
   .moving-arrow {
     border-right: 17px solid $bg-nude;
     border-top: 17px solid transparent;
